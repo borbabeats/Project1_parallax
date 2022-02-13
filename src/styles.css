@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: #242424;
+}
+
+#presentation-title {
+  height: 100vh;
+  background-image: url("https://www.guiadoturismobrasil.com/up/img/1488227002.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#presentation-title h1 {
+  color: #000;
+}
+
+#presentation-title h3 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.4em;
+  padding: 1em;
+}
+
+h2 {
+  font-weight: 900;
+  color: #000;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 5em;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.module p {
+  margin-bottom: 40px;
+  font-size: 1.4em;
+}
+
+.module:last-child {
+  margin-bottom: 0;
+}
+
+.module h2 {
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.module.content {
+  padding: 40px 0;
+  background-color: #2323;
+}
+
+.module.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.module.parallax::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+#parallax-1 {
+  background-image: url("https://guiaviajarmelhor.com.br/wp-content/uploads/2018/11/Lugares-para-conhecer-em-Bento-Gon%C3%A7alves-2-1024x682.jpg");
+}
+
+#parallax-2 {
+  background-image: url("https://www.fantastichouse.com.br/uploads/noticias/banner-gramado-e-a-retomada-eventos-com-muita-magi.jpg");
+}
+
+#parallax-3 {
+  background-image: url("https://cache.quantocustaviajar.com/blog/wp-content/uploads/2017/04/cidades-legais-no-rio-grande-do-sul-canela.jpg");
+}
+
+#parallax-4 {
+  background-image: url("https://cache.quantocustaviajar.com/blog/wp-content/uploads/2017/04/cidades-legais-no-rio-grande-do-sul-cambara-do-sul.jpg");
+}
+
+#parallax-5 {
+  background-image: url("https://cache.quantocustaviajar.com/blog/wp-content/uploads/2017/04/cidades-legais-no-rio-grande-do-sul-antonio-prado.jpg");
+}
